@@ -45,3 +45,7 @@ composer require livewire/livewire
 -- creamos un componente para livewire
 php artisan make:livewire TareaIndex
 ./vendor/bin/sail php artisan make:livewire TareaIndex
+
+-- para ver todas las rutas
+php artisan route:list
+./vendor/bin/sail php artisan route:list
